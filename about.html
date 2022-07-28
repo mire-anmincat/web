@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anmincat Linux is stripped-down 90MB+ On-RAM Live Linux Distribution based on Debian, Devuan and MX Linux packages. Linux maintenance environment for home computer. ">
+    <meta name="author" content="Supphakit Duanghoy">
+    
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    
+    <title>About - Anmincat Linux</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="css/base.min.css" rel="stylesheet">
+    <link href="css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+    <link href="css/extra.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="index.html">Anmincat Linux</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="index.html">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="screenshots.html">Screenshots</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="about.html">About</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li >
+                        <a rel="prev" href="screenshots.html">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="next" >
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#introduction">Introduction</a></li>
+        <li class="first-level "><a href="#history">History</a></li>
+        <li class="first-level "><a href="#mascot">Mascot!</a></li>
+        <li class="first-level "><a href="#thanks-to">Thanks to</a></li>
+            <li class="second-level"><a href="#distributions">Distributions</a></li>
+                
+            <li class="second-level"><a href="#persons">Persons</a></li>
+                
+        <li class="first-level "><a href="#legal-and-licenses">Legal and licenses</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="introduction">Introduction</h1>
+<p>Anmincat Linux (Admin-cat Linux) is a stripped-down portable custom linux distribution to be a smallest bootable rescue system
+contains useful softwares and tools, Graphical User Interface by custom build of X11 (X Window System) with 2D Graphic Drivers. 
+Just for rescue and maintenance the system.</p>
+<p>The entire system is created from software packages, just like puppy linux but a bit different, stupid and painful.
+All Software packages came from Debian, Devuan and MX Linux, one-by-one and mix-and-match together. Created by Supphakit Duanghoy, by single developer.</p>
+<h1 id="history">History</h1>
+<p>Anmincat Linux development began in 2021. The first version of Anmincat Linux was formally named as "LunarMDBoot" or "LunarMagicDriveBoot".
+LunarMDBoot was created from LFS (Linux From Scratch) and debootstrap after I learned how Linux works from the LFS Book, I was compiling and making
+my own Linux system at that time too. It's hard and time consuming, but fun indeed.</p>
+<p>The goal of LunarMDBoot is the same as Anmincat Linux, is to be bootable system with toolbox but without the "smallest" size possible.
+At that time, another version of LunarMDBoot was created from debootstrap without any strip-down, the size was 280MB+ ISO size with GUI,
+but only VESA Graphics Driver (That means it only works with BIOS System). And LunarMDBoot was in private development and no public releases.</p>
+<p>After that, I began from zero again. Tweaking and stripping down RootFS (Root File System) and Linux Kernel, remove unnecessary components from the software packages
+and now the entire system was created from buildscripts and apt download after a lot of trial and errors.</p>
+<p>All of this, without any inspiration and good mental heath, I haven't finished developing this system until today.</p>
+<h1 id="mascot">Mascot!</h1>
+<p><img alt="logo_512" src="img/logo_512.png" /></p>
+<p>The mascot of Anmincat Linux called "Dusty", That means it contain dust!</p>
+<p>Dusty is a black cat, but in real life she's a calico cat!</p>
+<p>I found her in my roof room of my house, she's came from temple nearby my house and living here for a long time now.
+She's a lovely cat!</p>
+<h1 id="thanks-to">Thanks to</h1>
+<h3 id="distributions">Distributions</h3>
+<ul>
+<li><a href="https://www.linuxfromscratch.org">Linux From Scratch</a> for make me understanding how Linux works.</li>
+<li><a href="http://www.damnsmalllinux.org/">Damn Small Linux</a> for the tiniest size inspiration.</li>
+<li><a href="http://tinycorelinux.net/">Tiny Core Linux</a> for keyboard layouts and inspiration.</li>
+<li><a href="https://puppylinux-woof-ce.github.io/">Puppy Linux</a> for <a href="https://github.com/puppylinux-woof-CE/woof-CE">WoofCE</a> for make me understanding how Puppy Linux was created.</li>
+<li><a href="https://www.debian.org/">Debian</a> for package manager, archive base and software packages, package search engine.</li>
+<li><a href="https://www.devuan.org/">Devuan</a> for base and software packages and being my main system until today.</li>
+<li><a href="https://mxlinux.org/">MX Linux</a> for GTKdialog package.</li>
+</ul>
+<h3 id="persons">Persons</h3>
+<ul>
+<li>My mom for motivating me to continue doing this project.</li>
+<li>My cat for ideas, naming, logo and mascot.</li>
+<li>Everyone from Linux community and Extreme IT Facebook group for trying out my Linux distribution!</li>
+</ul>
+<h1 id="legal-and-licenses">Legal and licenses</h1>
+<p>This linux distribution project is open-source, you can find buildscripts and other things from here <a href="https://github.com/anmincat">https://github.com/anmincat</a></p>
+<p>Copyright (c) 2022 <a href="https://github.com/supphakitbvn">Supphakit Duanghoy</a>. All rights reserved.</p>
+<p>Buildscripts and custom codes is covered by <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License, version 2</a>.</p>
+<p>Website, documentation and wikis is covered by <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.</p>
+<p>Any software that comes with Anmincat, may comes with various or the same license.</p></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Made by <a href="https://github.com/supphakitbvn">Supphakit Duanghoy</a> (c) 2022, CC BY-SA 3.0, Linux® is the registered trademark of Linus Torvalds, Cinder Theme by <a href="https://github.com/chrissimpkins">chrissimpkins</a></small><br>
+            
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = "."</script>
+    
+    <script src="js/base.js"></script>
+
+    <div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
