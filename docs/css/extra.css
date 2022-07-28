@@ -1,0 +1,19 @@
+/* Homepage */
+
+body.homepage>div.container>div.col-md-3 {
+    display: none;
+}
+
+body.homepage>div.container>div.col-md-9 {
+	margin: auto;
+	width: 100%;
+}
+
+body.homepage>div.container>div.col-md-9>p {
+	text-align: center;
+}
+
+body.homepage>div.container>div.col-md-9>div.text-center {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}

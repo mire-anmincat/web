@@ -1,0 +1,21 @@
+site_name: Anmincat Linux
+site_url: ""
+site_author: Supphakit Duanghoy
+site_description: "Anmincat Linux is stripped-down 90MB+ On-RAM Live Linux Distribution based on Debian, Devuan and MX Linux packages. Linux maintenance environment for home computer. "
+copyright: Made by <a href="https://github.com/supphakitbvn">Supphakit Duanghoy</a> (c) 2022, CC BY-SA 3.0, Linux® is the registered trademark of Linus Torvalds, Cinder Theme by <a href="https://github.com/chrissimpkins">chrissimpkins</a>
+
+use_directory_urls: false
+
+theme:
+    name: null
+    custom_dir: 'cinder'
+
+nav:
+    - Home: index.md
+    - Screenshots: screenshots.md
+    - About: about.md
+
+extra_css:
+    - css/extra.css
+
+plugins: []
