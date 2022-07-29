@@ -2,6 +2,8 @@
 
 **Anmincat Linux** is a stripped-down 90MB+ On-RAM Custom Live Linux Distribution, Linux maintenance environment for home computer.
 
+![screenshot_1](img/screenshot_1.png)
+
 <div class="text-center">
 <a href="https://github.com/Anmincat/AnmincatLinuxPlus/releases/download/1.1/AnmincatPlus_1.1.iso" class="btn btn-success btn-sm" role="button">Download Latest (64Bit)</a>
 <a href="https://github.com/Anmincat/AnmincatLinuxPlus/releases" class="btn btn-success btn-sm" role="button">All releases</a>
