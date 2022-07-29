@@ -1,7 +1,8 @@
 # Introduction
 
 Anmincat Linux (Admin-cat Linux) is a stripped-down portable custom linux distribution to be a smallest bootable rescue system
-contains useful softwares and tools, Graphical User Interface by custom build of X11 (X Window System) with 2D Graphic Drivers. 
+contains useful softwares and tools, Graphical User Interface  with 2D Graphic Drivers. 
+
 Just for rescue and maintenance the system.
 
 The entire system is created from software packages, just like puppy linux but a bit different, stupid and painful.
